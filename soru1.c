@@ -67,7 +67,6 @@ int main() {
 double kok_bulma1(int a1, int b1, int c1) {
     
     double kok1 = (-b1 + pow(pow(b1,2) - 4*a1*c1, 1.0/2.0))/(2*a1); //burada tam sayı bölmesi yapamadığını yapay zekadan öğrendim. o yüzden 1.0/2.0 yaptım.
-    double kok2 = (-b1 - pow(pow(b1,2) - 4*a1*c1, 1.0/2.0))/(2*a1);
 
     return kok1; //returnun sadece bir değer döndürebildiğini yapay zekadan öğrendim.
 
@@ -76,5 +75,8 @@ double kok_bulma1(int a1, int b1, int c1) {
 double kok_bulma2(int a2, int b2, int c2) {
 
     double kok2 = (-b2 - pow(pow(b2,2) - 4*a2*c2, 1.0/2.0))/(2*a2);
+
+    retunr kok2;
 }
+
 
